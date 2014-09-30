@@ -3,7 +3,7 @@ var pubnub = PUBNUB({
 	publish_key   : "demo",
 	subscribe_key : "demo"
 });
-
+```
 * Variable: = pubnub
 * String: = "demo"
 
@@ -18,7 +18,7 @@ var pubnub = PUBNUB({
                 top : 36,
                 left : 0
             }
-            
+ ```           
 * Variable: = message
 * String: = http://www.pubnub.com/static/mouse.png
 * Value: = Number 600, Number 30, Number 36, Number 0 
@@ -30,7 +30,7 @@ var pubnub = PUBNUB({
             'pos'   : pos,
             'click' : 1,
             'uuid'  : uuid
-            
+```            
 * Variable: = pos
 * Value: = Number 1
 
@@ -44,6 +44,7 @@ var Sprite = {
             animate : 0,
             move    : {}
         }
+```        
 * Variable: = Sprite
 * Operators = '*', "/"
 * Value: = Number 0
@@ -60,7 +61,7 @@ var Sprite = {
                 (sprite.cell.size * cell + sprite.image.offset.left) +
                 'px -' + sprite.image.offset.top + 'px'
         }
-        
+```        
 * Variable: offset
 * Conditional Statement: if (typeof offset.left == 'number'), if (typeof offset.left == 'number')
             
@@ -75,7 +76,7 @@ var current_time = start_time
             ,   ikey         = property + value;
 
             Sprite.stop_move( sprite, ikey )
-
+```
 * Variable: current_time
 * Operators: `-`, `+`
 * Value: number 0
@@ -93,7 +94,7 @@ var current_time = start_time
             position = 0;
             Sprite.stop_animate(sprite);
         }
-        
+```        
 * Conditional Statement: if (!e) return [0,0], if (!position)
 * Variable: Number 0
 
@@ -109,7 +110,7 @@ var current_time = start_time
 
         timer.innerHTML = [min, sec, mill].join(":");
     }, 60 )
-    
+```    
 * Variable: current
 * Operators: `+`, `/`, `%`, `-`
 * Value: Number 10, Number 0, Number 1000, Number 60000, Number 60, Number -3,
@@ -128,7 +129,7 @@ var current_time = start_time
                     "<source src={file}.ogg>"+
                     "<source src={file}.mp3>",
                     { file : sound }
-                    
+```                    
 * Variable: audio
 * Boolean: true
 * String: "<source src={file}.wav>", "<source src={file}.ogg>", "<source src={file}.mp3>"
@@ -138,7 +139,7 @@ var current_time = start_time
     ,   posy = 0;
 
     if (!e) return [0,0]
-    
+```    
 * Variable: posx
 * Conditional Statement: if (!e) return [0,0]
 * Value: number 0
