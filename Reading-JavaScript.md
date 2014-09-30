@@ -46,7 +46,7 @@ var Sprite = {
         }
 ```        
 * Variable: = Sprite
-* Operators = '*', "/"
+* Operators = '*', 
 * Value: = Number 0
 
 ```javascript
